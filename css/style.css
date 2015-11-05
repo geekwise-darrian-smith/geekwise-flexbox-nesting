@@ -1,3 +1,160 @@
+*{
+    box-sizing: border;
+}
 html, body{
-    background-color:maroon;
+    display: flex;
+    
+    flex-direction: row;
+    
+    background-color: white;
+    
+    margin: 0;
+    padding: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+    font-size: 1em;
+    
+    box-sizing: border;
 }    
+.dot_1{
+    display: flex;
+    
+    
+    background-color: black;
+    
+    height: 3em;
+    width: 3em;
+    
+    align-self: flex-start;
+
+}
+.dot_2{
+    
+    justify-content: center;
+    align-items: flex-start;
+    
+    background-color: black;
+    
+    height: 3em;
+    width: 3em;
+}
+.dot_3{
+    content:'';
+    
+    background-color: black;
+    
+    height: 3em;
+    width: 3em;
+}
+
+/*<!-----------------------LEFT COLUMN---------------------->*/
+#left{
+    display: flex;
+    
+    flex-direction: column;
+    
+    background-color: purple;
+    
+    width: calc(100%/3);
+    height: 100%;
+}
+.box{
+    
+    align-self: center;
+    
+    background-color: red;
+    
+    margin: 2rem;
+    
+    width: 50%;
+    height: 50%;
+
+    
+    border:5px solid black;
+    
+    text-align: center;
+    
+    line-height: 3rem;
+}
+
+.box [dot='one']{
+    content:'';
+    
+    width: 1em;
+    height: 1em;
+    
+    color: black;
+    
+    border-radius: 1em;
+    
+}
+
+.top_2{
+    
+}
+
+/*<!-----------------------MIDDLE COLUMN---------------------->*/
+
+
+#middle{
+    display: flex;
+    
+    flex-direction: column;
+    
+    background-color: green;
+    
+    width: calc(100%/3);
+    height: 100%;
+    
+    
+}
+.boxalign-self: center;_2{
+    background-color: red;
+    
+    margin: 2rem;
+    
+    width: 50%;
+    height: 50%;
+
+    
+    border:5px solid black;
+    
+    text-align: center;
+    
+    line-height: 3rem;
+}
+
+.box_2{
+    justify-content:center;
+
+}
+
+/*<!-----------------------RIGHT COLUMN---------------------->*/
+#right{
+    display: flex;
+    
+    flex-direction: column;
+    
+    background-color: yellow;
+    width: calc(100%/3);
+    height: 100%;
+}
+.box_3{
+    
+    
+    background-color: red;
+    
+    margin: 2rem;
+    
+    width: 50%;
+    height: 50%;
+
+    
+    border:5px solid black;
+    
+    text-align: center;
+    
+    line-height: 3rem;
+}
