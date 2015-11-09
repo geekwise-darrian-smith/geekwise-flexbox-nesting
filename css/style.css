@@ -1,6 +1,4 @@
-*{
-    box-sizing: border;
-}
+
 html, body{
     display: flex;
     
@@ -19,7 +17,6 @@ html, body{
     box-sizing: border;
 }    
 .dot_1{
-    display: flex;
     
     
     background-color: black;
@@ -27,13 +24,9 @@ html, body{
     height: 3em;
     width: 3em;
     
-    align-self: flex-start;
-
+    
 }
 .dot_2{
-    
-    justify-content: center;
-    align-items: flex-start;
     
     background-color: black;
     
@@ -41,6 +34,10 @@ html, body{
     width: 3em;
 }
 .dot_3{
+    justify-content: center;
+    
+    display: flex;
+    
     content:'';
     
     background-color: black;
@@ -61,6 +58,10 @@ html, body{
     height: 100%;
 }
 .box{
+    display: flex;
+    
+    justify-content: center;
+    align-items: flex-start;
     
     align-self: center;
     
@@ -91,10 +92,25 @@ html, body{
     
 }
 
-.top_2{
+#left_left{
+    display: flex;
     
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
+#left_mid{
+    display: flex;
+    
+    justify-content: center;
+    align-items: flex-start;
+}
+#left_right{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: flex-start;
+}
 /*<!-----------------------MIDDLE COLUMN---------------------->*/
 
 
@@ -110,7 +126,9 @@ html, body{
     
     
 }
-.boxalign-self: center;_2{
+.box_2{
+    
+    
     background-color: red;
     
     margin: 2rem;
@@ -124,11 +142,31 @@ html, body{
     text-align: center;
     
     line-height: 3rem;
+    
 }
 
-.box_2{
-    justify-content:center;
+#mid_left{
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+}
 
+#mid_mid{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+#mid_right{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dot_3{
+  
 }
 
 /*<!-----------------------RIGHT COLUMN---------------------->*/
@@ -142,7 +180,10 @@ html, body{
     height: 100%;
 }
 .box_3{
+    display: flex;
     
+    justify-content: flex-end;
+    align-items: flex-end;
     
     background-color: red;
     
@@ -157,4 +198,24 @@ html, body{
     text-align: center;
     
     line-height: 3rem;
+}
+
+#right_left{
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#right_mid{
+    display: flex;
+    
+    justify-content: center;
+    align-items: flex-end;
+}
+:;_right{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: flex-end;
 }
